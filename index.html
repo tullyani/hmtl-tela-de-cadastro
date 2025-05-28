@@ -1,0 +1,51 @@
+<!DOCTYPE html
+<htnml lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>meucadastro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- estrutura basica de todo codigo hmtl-->
+<!--body é o corpo da sua página web, onde reside todo o conteúdo que será exibido. -->
+
+<div class="conteiner">
+        <div class="form-wrapper">
+            <form class="cadastroForm"> 
+<!--A estrutura `` com classes como "conteiner" e "form-wrapper" é usada para organizar e estilizar elementos com CSS. deixar mais harmonico-->
+
+                <h4>tela de cadasrtro</h4> <!-- Cria um cabeçalho de quarto nível, usado aqui como um título para o formulário.-->
+
+                <input type="text" id="seu_nome" name="nomee-user" placeholder="seu_nome" required />
+                <span id="nomeErro" class="error"></span><br><br> <!--O objetivo principal aqui é permitir que JavaScript encontre e manipule este elemento para exibir mensagens de erro relacionadas ao campo de nome.-->
+
+                <input type="password" id="senha" name="senha" placeholder="Senha" required />
+                <span id="nomeErro" class="error"></span><br><br>
+
+                <input type="password" id="senha_novamente" name="ok" placeholder="senha_novamente" required /><br>
+                <span id="nomeErro" class="error"></span><br><br>
+
+                <button><a href="cadastro.html" title=" Clique aqui" target="_self" ype="submit">Voltar</button> <!--<input type="text" ...>: Cria um campo para digitar texto.
+<span ...>: Cria um contêiner genérico para texto (usado aqui para exibir erros).
+<br>: Insere uma quebra de linha.
+<button>: Cria um botão clicável.
+<a href="...">: Cria um link para outra página.
+Em essência, essas tags são blocos de construção básicos para criar elementos interativos e de texto em uma página web. O <input> permite a entrada de dados, o <span> organiza texto, 
+    o <br> formata o layout, e o <button> e <a> permitem a interação do usuário para realizar ações ou navegar.-->
+
+                <button type="reset">Limpar</button>
+                <span id="nomeErro" class="error"></span>
+
+                <button><a href="cadastro.html" title=" Clique aqui" target="_self" type="submit">Próximo</button>
+                <span id="nomeErro" class="error"></span>
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
